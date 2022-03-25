@@ -1,0 +1,25 @@
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\bin\Debug\Clinic system.exe.config
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\bin\Debug\Clinic system.exe
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\bin\Debug\Clinic system.pdb
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic system.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.Form1.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.Properties.Resources.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic system.csproj.GenerateResource.cache
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic system.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic system.csproj.CopyComplete
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic system.exe
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic system.pdb
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Booking.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Dashboard_Manager.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Dashboard.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Dashboard_Doctor.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Dashboard_Pharmacist.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Dashboad_Secretary.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Edit_manager.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Manage_medicine.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.report_doctor.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.view_report.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.Login.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Dashboard_P.resources
+C:\Users\moham\OneDrive\Desktop\Clinic system\Clinic system\obj\Debug\Clinic_system.UIs.Edit_Patient.resources

@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.91" multi-file="no" uid="simp73f1fa09d9504de8adbc0c412cce434c">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="UmlEnumeration" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="UmlEnumeration" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="UmlComment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="UmlCommentConnector" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>29</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>32</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-f132125207b14040943ea2962f77ecd5" name="" task-id-sequence="0">
+    <working-schedule uid="ws-477d6b5a63d945bc9f51c923f43d62d7" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="P4de313794cfc40a2a922b4dec04e58c3">
+        <first-name>Mohammad</first-name>
+        <last-name>Al-Qaisy</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-7c36fdae0d5c4dba8ac7625542eacd29" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-63168d4ee0844301a447a8d230e24cf0" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="void" tid="" name="void" description="" />
+      <type id="List" tid="" name="List" description="" />
+      <type id="string" tid="" name="string" description="" />
+      <type id="int" tid="" name="int" description="" />
+      <type id="Class:dfbf9712839a4903adcfab6950a0262e" tid="" name="Manager" description="" class-ref="dfbf9712839a4903adcfab6950a0262e" />
+      <type id="List&lt;Doctor&gt;" tid="" name="List&lt;Doctor&gt;" description="" />
+      <type id="List&lt;Secretary&gt;" tid="" name="List&lt;Secretary&gt;" description="" />
+      <type id="List &lt;Patient&gt;" tid="" name="List &lt;Patient&gt;" description="" />
+      <type id="List&lt;Pharmacist&gt;" tid="" name="List&lt;Pharmacist&gt;" description="" />
+      <type id="ID" tid="" name="ID" description="" />
+      <type id="password" tid="" name="password" description="" />
+      <type id="phone" tid="" name="phone" description="" />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p16ba290ba91b43f29424b766ea43e114_574935222" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/02/2022 19:31:20</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p4eb98e903cd4428cb4395be7a8db31c9_209645875" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="2,39">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/02/2022 19:31:20</creation-date>
+          <change-date>01/05/2022 14:30:30</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="c0615b184bbc416db3d640b74d47f1f2" cid="C001" type="class" name="Doctor" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:31:29">
+            <attributes>
+              <attribute id="ae2612280e44049f8824d9592c1eee3bd404" cid="ELEM001" name="Name" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-602355eb-cddd-4cdb-8844-efdde25bdf47" />
+                </source-codes>
+              </attribute>
+              <attribute id="a93857b503cc7404ab399ac6c85379330458" cid="ELEM002" name="ID" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-4c632e1b-287a-45d9-80ad-ec38e0efeff2" />
+                </source-codes>
+              </attribute>
+              <attribute id="a72cb33b2f64c4bbba0c70af77e763863930" cid="ELEM003" name="Major" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-a263c0ed-8440-4f17-a5a5-929abd6e93e4" />
+                </source-codes>
+              </attribute>
+              <attribute id="a15590e074282470aad7562a41dad9415123" cid="ELEM007" name="roomNumber" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-c42fd745-9b95-4d9b-8d42-fa1b25b93a76" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oc78729c995dd4926a829c50dcede8d3b276" cid="ELEM008" name="addReport" creation-date="01/01/0001 00:00:00" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="p28093d0e723b440a9e6e382389a4236c" name="patientId" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="dfbf9712839a4903adcfab6950a0262e" cid="C002" type="class" name="Manager" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:32:25">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FFFFFFFF" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FFFFFFFF" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" color="#FF2B508B" color2="#FF87CEFA" />
+                  <border color="#FF2B508B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="ae90047024b554e8983d26c6e1d6a77cc795" cid="ELEM004" name="Name" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-209f98c8-dc92-4fa4-ae84-9ac7a086bafc" />
+                </source-codes>
+              </attribute>
+              <attribute id="a1c95d6cd59134a2ebd323006d3b6236d625" cid="ELEM005" name="ID" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-4891952d-bd02-4431-99e1-7b192b11cb08" />
+                </source-codes>
+              </attribute>
+              <attribute id="ab4df3829284547079c8e43551f318209645" cid="ELEM006" name="roomNumber" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-4b0be353-c5c9-4598-8345-fea2693a2cea" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="od35341d808c341e5915fba5a587c014c59" cid="ELEM018" name="Manager" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="pe58d919ae24d4d4aa896370cf51360fb" name="id" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p38a536885e734813a1f810bf4ceeebef" name="name" type="string" type-id="string" />
+                  <parameter id="pb0bf263c429c476b803eceea6cad0a86" name="password" type="string" type-id="string" />
+                  <parameter id="p29e5811696ba44b3b67dc256d23760ec" name="roomNumber" type="int" type-id="int" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o15e585bc2a1b4a39ac42202cb65b60bf793" cid="ELEM019" name="GetManager" creation-date="01/01/0001 00:00:00" type="Manager" type-id="Class:dfbf9712839a4903adcfab6950a0262e" visibility="public">
+                <parameters>
+                  <parameter id="p9e8844953ad7429f8de1797e3547b4d5" name="" type="" type-id="" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o94e171755edd499eb5f165bed4ce6dc7510" cid="ELEM029" name="addPatient" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p36a6e6f484324b14b293a0cb3a777798" name="name" type="string" type-id="string" />
+                  <parameter id="p7853b20b424c4e77ae7d38f211af79db" name="Age" type="int" type-id="int" />
+                  <parameter id="p1d4b309e89f14c19bae2f8762bb3d018" name="password" type="string" type-id="string" />
+                  <parameter id="p625319f91a4548f494295476367ddd86" name="roomNumber" type="int" type-id="int" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o40e1e8b584364f4686ce09c89ea6e89d737" cid="ELEM030" name="addDoctor" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0bc51de8cff14428bb4d02acca9f9517" name="name" type="string" type-id="string" />
+                  <parameter id="peeb2b75193534903a8e3a263a7963927" name="major" type="string" type-id="string" />
+                  <parameter id="pf4eb97ab5f3e4e389c5a7a8154238503" name="password" type="string" type-id="string" />
+                  <parameter id="pf0191f016c0c436fa8faa9ffdbada6e8" name="roomNumber" type="int" type-id="int" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odacd29ac421d46e292c7e43e3833b283234" cid="ELEM031" name="addPharmacist" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pf9b87d330aed4dfcaff230032aa0d2aa" name="name" type="string" type-id="string" />
+                  <parameter id="pe53a0926fdfc4044b93d9046b6932f8d" name="password" type="string" type-id="string" />
+                  <parameter id="p0a8e89f051c44640807f314a65f16fbd" name="roomNumber" type="int" type-id="int" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="d8c70f71d13c40b0894a627557bb14f9" cid="C003" type="class" name="Pharmacist" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:32:46">
+            <attributes>
+              <attribute id="ac44db4b7d3004530a2d80c57cd4e99e6271" cid="ELEM012" name="Name" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-6c16f8fa-162d-4a8e-a391-9e5276137465" />
+                </source-codes>
+              </attribute>
+              <attribute id="a5bedfed0643643c6b30e0f289aac00c311" cid="ELEM013" name="ID" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-dceadd8c-d4cf-4555-94df-6eb5a6e9eb29" />
+                </source-codes>
+              </attribute>
+              <attribute id="a0ad94196df7342d48388e91898405185554" cid="ELEM016" name="roomNumber" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-eadfc827-a7fe-4ed0-9933-24809f7b877a" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o90445ccdc14f43c9a583980468b327ab841" cid="ELEM024" name="addMedecine" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4fe55cd7fdc04ec194d9ac184718d5ad" name="s1" type="string" type-id="string" />
+                  <parameter id="p6a86b963b9d84499b1100dc0ec7eeef6" name="s2" type="string" type-id="string" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4fb007a4447847528541f471b26474e2733" cid="ELEM025" name="percentMedecine" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2cbdc3fe8dbf4f0bb4a7bdeeaf0db6e1499" cid="ELEM026" name="subMedecine" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1e555dc83690487a9d180914299b24c7" name="int" type="ID" type-id="ID" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="1fa02dd683914dc4a4d6a7ae47d42cbf" cid="REL015" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/05/2022 13:53:12" from="50cf7b40f6c748779fe5512d1e5d1cbd" to="ee88c548286749c49b90d59844762c64">
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" to="ee88c548286749c49b90d59844762c64">
+              <start-role id="umlar-1b2382d0-ca98-41e5-b4f3-c9ec16a22978" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-fbec10f8-1ef4-47f9-8ad2-c01317d0f77a" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ee88c548286749c49b90d59844762c64" cid="C005" type="class" name="Patient" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:33:18">
+            <attributes>
+              <attribute id="a5768ac03baf9472082c89f7a197df7aa759" cid="ELEM009" name="Name" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-a0a55274-28d1-4a06-9028-c89ee15cde4e" />
+                </source-codes>
+              </attribute>
+              <attribute id="ac499e563c3f34c748d81ddb56ce1533f244" cid="ELEM010" name="ID" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9cbcab72-c14f-4548-8d0f-e7e5fa5b7572" />
+                </source-codes>
+              </attribute>
+              <attribute id="a65e5155499c248dc9d4c13d4e4a67666790" cid="ELEM011" name="reports" creation-date="01/01/0001 00:00:00" type="List" type-id="List" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e0316952-8e18-4303-b1d7-c24a9794ffb9" />
+                </source-codes>
+              </attribute>
+              <attribute id="a9a57bde883b24daba26c337b11ee378b663" cid="ELEM017" name="Age" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7d7ec4fa-8486-4844-857a-350347c30522" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="ob38403bbb11d4aecb28ad86158d989d0947" cid="ELEM027" name="editPatient" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p84f5277b6ef14c899de840c088601c15" name="name" type="string" type-id="string" />
+                  <parameter id="pd5a723117fed444fadba0bb2e0b670e2" name="Age" type="int" type-id="int" />
+                  <parameter id="pd671961e1cf445a8aa9b9d798bbb57d6" name="string" type="password" type-id="password" />
+                  <parameter id="pd8e2b92b94684f849c0dd0ea911baeb2" name="string" type="phone" type-id="phone" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8a098cc36d2449c9b5c73ff0f09485a5" cid="REL001" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:43:57" from="c0615b184bbc416db3d640b74d47f1f2" to="ee88c548286749c49b90d59844762c64">
+            <relation from="c0615b184bbc416db3d640b74d47f1f2" to="ee88c548286749c49b90d59844762c64">
+              <start-role id="umlar-5baaf362-5ef7-424d-a57a-8db7084af747" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-e786e52f-af54-4983-95fc-47cdb07234bc" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="50cf7b40f6c748779fe5512d1e5d1cbd" cid="C009" type="class" name="Accounts" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/05/2022 13:50:10">
+            <attributes>
+              <attribute id="a6a4eecc7076543f59a7e86dd346a691654" cid="ELEM020" name="AccP" creation-date="01/01/0001 00:00:00" type="List &lt;Patient&gt;" type-id="List &lt;Patient&gt;" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-24801411-1722-4c36-bd36-4e45dd28aa0e" />
+                </source-codes>
+              </attribute>
+              <attribute id="a24b6ffc081b5468f86abd912623fcf91823" cid="ELEM021" name="AccD" creation-date="01/01/0001 00:00:00" type="List&lt;Doctor&gt;" type-id="List&lt;Doctor&gt;" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-2decc079-b7ed-49b2-a1d4-76b72e698c55" />
+                </source-codes>
+              </attribute>
+              <attribute id="a72e0fd413ffe4b8ea07aac143bfef9a5749" cid="ELEM023" name="AccPh" creation-date="01/01/0001 00:00:00" type="List&lt;Pharmacist&gt;" type-id="List&lt;Pharmacist&gt;" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-697beed3-5372-48af-b2c5-d75bb6007211" />
+                </source-codes>
+              </attribute>
+              <attribute id="a5e218571d53147a68b0b7c34189df14d133" cid="ELEM028" name="ID" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-19c86413-ab72-40f1-9ffc-92fc514f7b52" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="9aca3d041b0b421cb37230720f08948b" cid="REL013" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/05/2022 13:53:06" from="50cf7b40f6c748779fe5512d1e5d1cbd" to="c0615b184bbc416db3d640b74d47f1f2">
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" to="c0615b184bbc416db3d640b74d47f1f2">
+              <start-role id="umlar-60197d5e-0468-4661-9b16-05d1996362ed" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-edc45065-8bba-401b-b764-991ce78d2ecb" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="9f48c5dfb8b6478e9473ad5517b4589a" cid="REL004" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:44:12" from="dfbf9712839a4903adcfab6950a0262e" to="ee88c548286749c49b90d59844762c64">
+            <relation from="dfbf9712839a4903adcfab6950a0262e" to="ee88c548286749c49b90d59844762c64">
+              <start-role id="umlar-b704220e-3734-4800-981c-355e89100655" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-2f935781-ad7c-4364-bf0f-7a5c53e84886" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="fb97791625cc4667a43ffbddf2b4732c" cid="REL005" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:44:14" from="dfbf9712839a4903adcfab6950a0262e" to="c0615b184bbc416db3d640b74d47f1f2">
+            <relation from="dfbf9712839a4903adcfab6950a0262e" to="c0615b184bbc416db3d640b74d47f1f2">
+              <start-role id="umlar-b273f030-7f94-453f-ab2a-0c76ac071730" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-515532a3-04f0-4c69-8c77-637187ba14e8" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="1e1b53ba71b54f308cc70cd11f34826b" cid="REL009" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:45:44" from="dfbf9712839a4903adcfab6950a0262e" to="d8c70f71d13c40b0894a627557bb14f9">
+            <relation from="dfbf9712839a4903adcfab6950a0262e" to="d8c70f71d13c40b0894a627557bb14f9">
+              <start-role id="umlar-c2c5d125-5476-4d36-bed4-7dccd665ff8f" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-9b414503-f928-417d-82c8-41436d87707e" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="e8fe8748025542bab4f0e979c3899a3f" cid="REL010" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/02/2022 19:45:56" from="ee88c548286749c49b90d59844762c64" to="d8c70f71d13c40b0894a627557bb14f9">
+            <relation from="ee88c548286749c49b90d59844762c64" to="d8c70f71d13c40b0894a627557bb14f9">
+              <start-role id="umlar-5e9e072b-682b-45f6-93df-f784b053240e" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-e05d5807-f1cf-4283-a853-b57b6ecc7b86" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="eb0de78ad422486aa2617a58ac364ff4" cid="REL018" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/05/2022 13:53:34" from="50cf7b40f6c748779fe5512d1e5d1cbd" to="dfbf9712839a4903adcfab6950a0262e">
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" to="dfbf9712839a4903adcfab6950a0262e">
+              <start-role id="umlar-41445ea8-0f31-40eb-a3c0-bbfc7260c6eb" name="" multiplicity="1" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-08c8568e-750d-4b71-9b0b-77566dec6b6e" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="cb649e13ffe0447392d7d51b8e4ecce4" cid="REL016" type="relationship" name="" style-class="" visibility="package" change-tracking-state="added" creator="P4de313794cfc40a2a922b4dec04e58c3" creation-date="01/05/2022 13:53:14" from="50cf7b40f6c748779fe5512d1e5d1cbd" to="d8c70f71d13c40b0894a627557bb14f9">
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" to="d8c70f71d13c40b0894a627557bb14f9">
+              <start-role id="umlar-85f3ee8b-708f-4ce5-a2c9-4a07808095ec" name="" multiplicity="1" navigability="" association-type="association" visibility="private" />
+              <end-role id="umlar-f9a88527-2027-4ea1-a88d-0adb7adfd4b6" name="" multiplicity="1..*" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="f4dbacaa378540159ef1ef4ee5bf59ef" name="Default" visible="true" enabled="true" locked="false">
+          <item id="c0615b184bbc416db3d640b74d47f1f2" iid="d5220eac25394928b4141cd581b15a56" creation-date="01/02/2022 19:31:29" order-index="0" type="entity">
+            <layout ax="80" ay="108" awidth="253" aheight="134" x="80" y="108" width="253" height="134" />
+            <class />
+          </item>
+          <item id="dfbf9712839a4903adcfab6950a0262e" iid="23c8376a8dff47c5a6bb42340ffb49bf" creation-date="01/02/2022 19:32:25" order-index="1" type="entity">
+            <layout ax="551" ay="-10.5" awidth="356" aheight="241" x="551" y="-10.5" width="356" height="241" />
+            <class />
+          </item>
+          <item id="d8c70f71d13c40b0894a627557bb14f9" iid="adf2cca95662403ab45bab4c7b416dc7" creation-date="01/02/2022 19:32:46" order-index="2" type="entity">
+            <layout ax="1020" ay="139" awidth="254" aheight="151" x="1020" y="139" width="254" height="151" />
+            <class />
+          </item>
+          <item id="ee88c548286749c49b90d59844762c64" iid="4bad569de0954e759d38b96c63ab425e" creation-date="01/02/2022 19:33:18" order-index="4" type="entity">
+            <layout ax="666" ay="397" awidth="303" aheight="148" x="666" y="397" width="303" height="148" />
+            <class />
+          </item>
+          <item id="8a098cc36d2449c9b5c73ff0f09485a5" iid="5c24e43b498c4608b7c1d59d91601176" creation-date="01/02/2022 19:43:57" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="24.64746,-15.5385" end-multiplicity-position="24.99995,15.00004" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="333" y1="236" x2="666" y2="397" start-border-pos="0.489598573143803" end-border-pos="0.9991830361856" name-position="0,0">
+              <points>
+                <point x="333" y="236" />
+                <point x="666" y="397" />
+              </points>
+            </layout>
+            <relation from="c0615b184bbc416db3d640b74d47f1f2" from-iid="d5220eac25394928b4141cd581b15a56" to="ee88c548286749c49b90d59844762c64" to-iid="4bad569de0954e759d38b96c63ab425e" />
+          </item>
+          <item id="9f48c5dfb8b6478e9473ad5517b4589a" iid="f057b4346dc94cf7947d048f24febb5c" creation-date="01/02/2022 19:44:12" order-index="8" type="relation">
+            <layout start-role-position="24.99999,15.00003" end-role-position="25,-15.00003" start-multiplicity-position="25.00008,-15.00003" end-multiplicity-position="12.91481,25.32484" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="759" y1="230" x2="800" y2="397" start-border-pos="0.6042243871796" end-border-pos="0.110359922100608" name-position="0,0">
+              <points>
+                <point x="759" y="230" />
+                <point x="800" y="397" />
+              </points>
+            </layout>
+            <relation from="dfbf9712839a4903adcfab6950a0262e" from-iid="23c8376a8dff47c5a6bb42340ffb49bf" to="ee88c548286749c49b90d59844762c64" to-iid="4bad569de0954e759d38b96c63ab425e" />
+          </item>
+          <item id="fb97791625cc4667a43ffbddf2b4732c" iid="193d12bad5004cad8f59176efa223f9d" creation-date="01/02/2022 19:44:14" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="58.41315,8.506662" start-multiplicity-position="23.41541,-16.57763" end-multiplicity-position="36.40502,-15.16496" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="551" y1="132" x2="333" y2="159" start-border-pos="0.852051477709252" end-border-pos="0.345552359054338" name-position="0,0">
+              <points>
+                <point x="551" y="132" />
+                <point x="333" y="159" />
+              </points>
+            </layout>
+            <relation from="dfbf9712839a4903adcfab6950a0262e" from-iid="23c8376a8dff47c5a6bb42340ffb49bf" to="c0615b184bbc416db3d640b74d47f1f2" to-iid="d5220eac25394928b4141cd581b15a56" />
+          </item>
+          <item id="1e1b53ba71b54f308cc70cd11f34826b" iid="4f99f5c374a94015a8e85388d5052dda" creation-date="01/02/2022 19:45:44" order-index="10" type="relation">
+            <layout start-role-position="25.00002,15.00002" end-role-position="25.00001,-15.00001" start-multiplicity-position="25.00001,-15.00001" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="907" y1="154" x2="1020" y2="182" start-border-pos="0.420940953171599" end-border-pos="0.928142522344526" name-position="0,0">
+              <points>
+                <point x="907" y="154" />
+                <point x="1020" y="182" />
+              </points>
+            </layout>
+            <relation from="dfbf9712839a4903adcfab6950a0262e" from-iid="23c8376a8dff47c5a6bb42340ffb49bf" to="d8c70f71d13c40b0894a627557bb14f9" to-iid="adf2cca95662403ab45bab4c7b416dc7" />
+          </item>
+          <item id="e8fe8748025542bab4f0e979c3899a3f" iid="4e946d0bad7d45b486178d3fccd61b39" creation-date="01/02/2022 19:45:56" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="28.30739,-11.25029" end-multiplicity-position="38.1735,6.25597" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="913" y1="397" x2="1050" y2="290" start-border-pos="0.203573850121829" end-border-pos="0.720759714682271" name-position="0,0">
+              <points>
+                <point x="913" y="397" />
+                <point x="1050" y="290" />
+              </points>
+            </layout>
+            <relation from="ee88c548286749c49b90d59844762c64" from-iid="4bad569de0954e759d38b96c63ab425e" to="d8c70f71d13c40b0894a627557bb14f9" to-iid="adf2cca95662403ab45bab4c7b416dc7" />
+          </item>
+          <item id="50cf7b40f6c748779fe5512d1e5d1cbd" iid="dbeddbfb4ff54401a84881122d0f0c15" creation-date="01/05/2022 13:50:10" order-index="12" type="entity">
+            <layout ax="80" ay="360" awidth="208" aheight="148" x="80" y="360" width="208" height="148" />
+            <class />
+          </item>
+          <item id="9aca3d041b0b421cb37230720f08948b" iid="ce9cb74086d045218ad9edc913a1e28a" creation-date="01/05/2022 13:53:06" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" end-role-width="50" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="190" y1="360" x2="200" y2="242" start-border-pos="0.132554952914898" end-border-pos="0.631117703886371" name-position="0,0">
+              <points>
+                <point x="190" y="360" />
+                <point x="200" y="242" />
+              </points>
+            </layout>
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" from-iid="dbeddbfb4ff54401a84881122d0f0c15" to="c0615b184bbc416db3d640b74d47f1f2" to-iid="d5220eac25394928b4141cd581b15a56" />
+          </item>
+          <item id="1fa02dd683914dc4a4d6a7ae47d42cbf" iid="4acde5175d774f43a3220b0acc24081e" creation-date="01/05/2022 13:53:12" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="288" y1="440" x2="666" y2="462" start-border-pos="0.385252359751108" end-border-pos="0.889984233959301" name-position="0,0">
+              <points>
+                <point x="288" y="440" />
+                <point x="666" y="462" />
+              </points>
+            </layout>
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" from-iid="dbeddbfb4ff54401a84881122d0f0c15" to="ee88c548286749c49b90d59844762c64" to-iid="4bad569de0954e759d38b96c63ab425e" />
+          </item>
+          <item id="cb649e13ffe0447392d7d51b8e4ecce4" iid="336eaa4969d44082b8719be426d46c86" creation-date="01/05/2022 13:53:14" order-index="16" type="relation">
+            <layout start-role-position="25.02007,14.86589" start-role-width="50" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="24.99998,14.99999" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="288" y1="410" x2="1020" y2="243" start-border-pos="0.334866394867768" end-border-pos="0.827792211873642" name-position="0,0">
+              <points>
+                <point x="288" y="410" />
+                <point x="1020" y="243" />
+              </points>
+            </layout>
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" from-iid="dbeddbfb4ff54401a84881122d0f0c15" to="d8c70f71d13c40b0894a627557bb14f9" to-iid="adf2cca95662403ab45bab4c7b416dc7" />
+          </item>
+          <item id="eb0de78ad422486aa2617a58ac364ff4" iid="aa3af1bbae3940f68921b881e5f50fca" creation-date="01/05/2022 13:53:34" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25.83732,15.54675" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="288" y1="372" x2="551" y2="216" start-border-pos="0.270561630661423" end-border-pos="0.765228018226465" name-position="0,0">
+              <points>
+                <point x="288" y="372" />
+                <point x="551" y="216" />
+              </points>
+            </layout>
+            <relation from="50cf7b40f6c748779fe5512d1e5d1cbd" from-iid="dbeddbfb4ff54401a84881122d0f0c15" to="dfbf9712839a4903adcfab6950a0262e" to-iid="23c8376a8dff47c5a6bb42340ffb49bf" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
